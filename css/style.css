@@ -1,6 +1,9 @@
+@font-face {
+	font-family: 'OuroborosFont';
+	src: url('Ouroboros_web.ttf')  format('truetype'), /* Safari, Android, iOS */;
+}
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
-	color: #333;
+	background: #000000
 }
 
 a {
@@ -18,6 +21,7 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
+	font-family: 'OuroborosFont';
 	background-color: #000;
 	color: BlanchedAlmond;
 	min-height: 100px;
